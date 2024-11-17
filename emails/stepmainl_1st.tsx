@@ -21,7 +21,7 @@ return (
   <Html>
     <Head />
     <Tailwind>
-    <Body>
+    <Body style={body}>
       <Container style={container}>
         <Img
           src={`${baseUrl}/static/smail/Step1st_FV.jpg`}
@@ -74,7 +74,7 @@ return (
   );
 }
 
-const main = {
+const body = {
   backgroundColor: "#f6f9fc",
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
