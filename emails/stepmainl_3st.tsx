@@ -24,7 +24,7 @@ export default function StepMail1st() {
         <Body style={body}>
           <Container style={container}>
             <Img
-              src={`${baseUrl}/static/smail/241119stepmail/Step2st_FV.jpg`}
+              src={`${baseUrl}/static/smail/241119stepmail/Step3st_FV.jpg`}
               width="350"
               className="w-full"
               alt="働く食物繊維モロヘイヤ１００％あおつぶ"
@@ -32,31 +32,24 @@ export default function StepMail1st() {
             <Section className="mb-5">
               <Heading className="text-center text-green-700 text-lg">こんにちは、あおつぶです</Heading>
               <Text>〇〇さま</Text>
-              <Text>あおつぶをお試しになって、いかがでしょうか？</Text>
-              <Text>インナーケアを続けると、おなかの調子が整って内側からの美容にも働きかけます</Text>
-              <Text>無理なく習慣にできるようにあおつぶのおすすめの飲み方をご紹介します</Text>
+              <Text>あおつぶ生活を始めていかがでしょうか？</Text>
+              <Text>あおつぶはお薬ではなく、モロヘイヤ100％の野菜粒です</Text>
+              <Text>すぐに大きな変化がなくてもたっぷりの食物繊維がおなかの環境を整えて、ゆっくりと体の調子をサポートします</Text>
             </Section>
             <Section className="mb-5">
               <Img
-                src={`${baseUrl}/static/smail/241119stepmail/Step2st_2.png`}
+                src={`${baseUrl}/static/smail/241119stepmail/Step3st_2.png`}
                 width="350"
                 className="w-full"
                 alt="あおつぶスタッフおすすめの飲み方"
               />
               <Img
-                src={`${baseUrl}/static/smail/241119stepmail/Step2st_3.png`}
+                src={`${baseUrl}/static/smail/241119stepmail/Step3st_3.png`}
                 width="350"
                 className="w-full"
                 alt="1日に10〜30粒たっぷりの水でお飲みください。いつ飲んでもOKです"
               />
-              <Img
-                src={`${baseUrl}/static/smail/241119stepmail/Step2st_4.png`}
-                width="350"
-                className="w-full"
-                alt="お客様の声：モロヘイヤを飲んで毎日スッキリ、毎日ご機嫌です。"
-              />
-              <Text>モロヘイヤ100％でできているあおつぶは、飲むというより、野菜を食べる感覚です</Text>
-              <Text>栄養豊富なモロヘイヤ100％のあおつぶでインナーケアを続けませんか</Text>
+              <Text>いかがでしたでしょうか。ぜひ、あおつぶを飲まれる時のご参考にしていただけますと幸いです。</Text>
               <Img
                 src={`${baseUrl}/static/smail/241119stepmail/ArrowTExt.png`}
                 width="350"
@@ -65,18 +58,18 @@ export default function StepMail1st() {
               />
               <Text className="mb-3 text-center text-[#707070] text-base font-semibold leading-7 tracking-widest">あおつぶを続けて実感いただけるよう<br />限定特典をご用意いたしました！</Text>
               <Img
-                src={`${baseUrl}/static/smail/241119stepmail/Step2st_5.png`}
+                src={`${baseUrl}/static/smail/241119stepmail/Step3st_4.png`}
                 width="350"
                 className="w-full mb-2"
                 alt="あおつぶ 定期コースのご注文で定期割引10%OFF + あおつぶ140粒(1週間分)プレゼント！10％OFF 通常価格 ¥5,616 が¥5,054"
               />
               <Img
-                src={`${baseUrl}/static/smail/241119stepmail/Step2st_6.png`}
+                src={`${baseUrl}/static/smail/241119stepmail/Step3st_5.png`}
                 width="350"
-                className="w-full"
-                alt="あおつぶ14包140粒プレゼント!"
+                className="w-full mb-2"
+                alt="あおつぶ 定期コースのご注文で定期割引10%OFF + あおつぶ140粒(1週間分)プレゼント！10％OFF 通常価格 ¥5,616 が¥5,054"
               />
-              <div className="w-auto mx-4 px-9 py-4 my-8 bg-[#176830] rounded-3xl shadow text-center cursor-pointer"><a className="no-underline text-white text-xl" href="https://aotsubu.co.jp/lp?u=9317">詳しくはこちら</a></div>
+              <div className="w-auto mx-4 px-9 py-4 my-8 bg-[#176830] rounded-3xl shadow text-center cursor-pointer"><a className="no-underline text-white text-xl" href="https://aotsubu.co.jp/lp?u=9318">詳しくはこちら</a></div>
 
             </Section>
             <Footer />
