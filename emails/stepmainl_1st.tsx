@@ -26,11 +26,11 @@ export default function StepMail1st() {
             <Img
               src={`${baseUrl}/static/smail/241119stepmail/Step1st_FV.jpg`}
               width="350"
-              className="w-full"
+              className="w-full mb-3"
               alt="働く食物繊維モロヘイヤ１００％あおつぶ"
             />
-            <Section className="mb-5">
-              <Heading className="text-center text-green-700 text-lg">初めまして、あおつぶです</Heading>
+            <Section className="mb-5 pl-2 pr-2">
+              <Heading className="text-center text-green-700 text-base">初めまして、あおつぶです</Heading>
               <Text>〇〇さま</Text>
               <Text>この度は『あおつぶ』をご購入いただきまして、誠にありがとうございます。</Text>
               <Text>あおつぶは、「大切な人がずっと健康で、元気でいますように」という想いを叶えるために生まれました。</Text>
@@ -61,7 +61,7 @@ export default function StepMail1st() {
                 className="w-full"
                 alt="あおつぶの優れた食物繊維が認められて、食物繊維大賞を受賞しました。"
               />
-              <Text className="mb-3 text-center text-[#707070] text-base font-semibold leading-7 tracking-widest">あおつぶを続けて実感いただけるよう<br />限定特典をご用意いたしました！</Text>
+              <Text className="mb-3 text-center text-[#707070] font-semibold leading-7 tracking-widest">あおつぶを続けて実感いただけるよう<br />限定特典をご用意いたしました！</Text>
               <Img
                 src={`${baseUrl}/static/smail/241119stepmail/Step1st_6.png`}
                 width="350"
@@ -74,7 +74,7 @@ export default function StepMail1st() {
                 className="w-full"
                 alt="あおつぶ14包140粒プレゼント!"
               />
-              <div className="w-auto mx-4 px-9 py-4 my-8 bg-[#176830] rounded-3xl shadow text-center cursor-pointer"><a className="no-underline text-white text-xl" href="https://aotsubu.co.jp/lp?u=9324">詳しくはこちら</a></div>
+              <div className="w-auto mx-4 px-9 py-4 my-8 bg-[#176830] rounded-3xl shadow text-center cursor-pointer"><a className="no-underline text-white text-base" href="https://aotsubu.co.jp/lp?u=9324">詳しくはこちら</a></div>
 
             </Section>
             <Footer />
@@ -86,7 +86,7 @@ export default function StepMail1st() {
 }
 
 const body = {
-  backgroundColor: "#f6f9fc",
+  // backgroundColor: "#f6f9fc",
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
 };
@@ -94,7 +94,6 @@ const body = {
 const container = {
   backgroundColor: "#ffffff",
   margin: "0 auto",
-  padding: "0 48px",
-  marginBottom: "64px",
+  padding: "0",
 };
 
