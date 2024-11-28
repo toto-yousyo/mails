@@ -30,11 +30,10 @@ export default function StepMail1st() {
               alt="働く食物繊維モロヘイヤ１００％あおつぶ"
             />
             <Section className="mb-5 pl-2 pr-2">
-              <Heading className="text-center text-green-700 text-base">こんにちは、あおつぶです</Heading>
               <Text>〇〇さま</Text>
               <Text>あおつぶをお試しになって、いかがでしょうか？</Text>
               <Text>インナーケアを続けると、おなかの調子が整って内側からの美容にも働きかけます。</Text>
-              <Text>無理なく習慣にできるようにあおつぶのおすすめの飲み方をご紹介します。</Text>
+              <Text>無理なく習慣にできるように、あおつぶのおすすめの飲み方をご紹介します。</Text>
             </Section>
             <Section className="mb-5">
               <Img
