@@ -34,28 +34,27 @@ export default function StepMail1st() {
             <Section className="mb-5 pl-2 pr-2">
               <Text>〇〇さま</Text>
               <Text>あおつぶの藤本です。<br />
-                いつもありがとうございます。<br />
-                今年一年の感謝を込めて、〇〇さまに特別なご案内をお送りしました。<br />
-                お手元に届いていますでしょうか？
+                12月に入り寒さが増してきましたね。<br />
+                体が冷えるとおなかの動きにも影響をします。
               </Text>
-              <Text>いつものお気に入りの商品をよりお得に購入したり、気になっていたものをお試しいただき日々の生活に少しでもお役立ていただければ幸いです。</Text>
-              <Text>12月24日（火）までの期間限定です。</Text>
+              <Text>私は最近冷え対策に、シャワーではなく湯船につかるようにしています。<br />
+                体の芯からじんわり温まります。<br />
+                その後レッグウォーマ―を履いて寝ると、翌朝体がポカポカした状態で目覚めることができます。
+              </Text>
+              <Text>無理なく習慣にできる冷え対策で、元気に過ごしていきたいですね。</Text>
+              <Text>さて、以前にお贈りしました特別クーポンの締切が12月24日（火）までとなります。</Text>
+              <Text>内側からのケアで冬を健康に乗り切るために<br />
+              ぜひこの機会にご利用ください♪</Text>
             </Section>
-            <Section>
-              *******************************<br />
-              <br />
-              ◆5,000円（税込）以上ご購入◆<br />
-              【税込500円（税別463円）割引】<br />
-              さらに送料・支払い手数料無料<br />
-              <br />
-              <br />
-              ◆10,000円（税込）以上ご購入◆<br />
-              【税込1,000円（税別926円）割引】<br />
-              さらに送料・支払い手数料無料<br />
-              <br />
-              *******************************<br />
+            <Section className="pl-2 pr-2">
+            <Img
+              src="https://ec-force.s3.amazonaws.com/aotsubucojp/uploads/assets/smail/24112833thwinter/33th_winter_3.png"
+              width="350"
+              className="w-full mb-3"
+              alt="5,000円（税込）以上ご購入【税込500円（税別463円）割引】さらに送料・支払い手数料無料 10,000円（税込）以上ご購入【税込1,000円（税別926円）割引】さらに送料・支払い手数料無料"
+            />
             </Section>
-            <Section>
+            <Section className="pl-2 pr-2">
               <Text>
                 webからご注文の方は<br />
                 専用ページからご購入の場合に<br />
@@ -74,7 +73,7 @@ export default function StepMail1st() {
                 カート内に表示されたクーポンコードをコピーし、クーポンコードの入力欄に貼付けをしてください。
               </Text>
             </Section>
-            <Section>
+            <Section className="pl-2 pr-2">
               <Text>
                 ------------------------------------<br />
                 購入金額<br />
@@ -91,23 +90,22 @@ export default function StepMail1st() {
                 <a href="https://aotsubu.co.jp/shop/pages/2024winter">https://aotsubu.co.jp/shop/pages/2024winter</a>
               </Text>
             </Section>
-            <Section>
+            <Section className="pl-2 pr-2">
               <Text>
                 ※ご利用はご本人様のみ1回限り有効です。<br />
-                ※他のキャンペーン、割引券との併用は
+                ※他のキャンペーン、割引券との併用は<br />
                 できませんので、ご了承ください。<br />
                 ※クーポンは1回のご注文で1つのみご利用いただけます。<br />
                 ※WEBのご注文は、割引額が税別表記となりますが、税込価格(500円・1,000円)で割引適用いたします。<br />
                 <br />
                 本メールとの行き違いで、既にクーポンをご使用されている場合はご容赦ください。<br />
                 <br />
-                最後までお読みいただきありがとうございました。<br />
+                最後までお読みいただき<br />ありがとうございました。<br />
                 <br />
-                少しずつ寒くなってきましたので、体調にお気をつけてお過ごしください。<br />
+                〇〇さまのご健康を心より願っております。<br />
                 <br />
-                〇〇さまの健康と笑顔につながりますように。<br />
-                <br />
-                株式会社 青粒　藤本<br />
+                株式会社 青粒<br />
+                藤本
               </Text>
             </Section>
             <Footer />
@@ -119,7 +117,6 @@ export default function StepMail1st() {
 }
 
 const body = {
-  // backgroundColor: "#f6f9fc",
   fontFamily:
     '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif',
 };
