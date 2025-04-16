@@ -31,7 +31,7 @@ export default function Footer() {
         </p>
       </Text>
       <Img
-        src={`${baseUrl}/static/smail/241119stepmail/logo_mail.png`}
+        src="https://ec-force.s3.amazonaws.com/aotsubucojp/uploads/assets/smail/241119stepmail/logo_mail.png"
         width="350"
         className="w-1/2 mx-auto my-10"
         alt="あおつぶ"
@@ -39,5 +39,4 @@ export default function Footer() {
     </Tailwind>
   )
 }
-
 
